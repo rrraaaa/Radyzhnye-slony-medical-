@@ -253,10 +253,159 @@ body {
 			font-style: normal;
 			font-weight: 700;
 			line-height: 23px;
-			color:#fff;
+			color: #fff;
 			display: flex;
 			justify-content: center;
 			align-items: center;
+		}
+	}
+}
+
+.info {
+	position: relative;
+	top: 200px;
+	width: 1200px;
+	margin: 0 auto;
+	height: 850px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	// .info__titles
+
+	&__titles {
+		width: 80%;
+		display: flex;
+		justify-content: space-between;
+		font-family: Asap;
+		font-size: 32px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 37px;
+	}
+
+	// .info__content
+
+	&__content {
+		display: flex;
+	}
+
+	.titles {
+		// .titles__item
+
+		&__item {
+		}
+	}
+	.content {
+		// .content__main
+
+		&__main {
+			width: 70%;
+			height: 750px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		// .content__columns
+
+		&__columns {
+		}
+	}
+	.main {
+		// .main__img
+
+		&__img {
+		}
+
+		// .main__text
+
+		&__text {
+			font-family: Asap;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 29px;
+			height: 223px;
+			width: 772px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+	}
+	.text {
+		// .text__item
+
+		&__item {
+		}
+	}
+	.columns {
+		// .columns__item
+
+		&__item {
+			width: 350px;
+			height: 240px;
+			background: linear-gradient(180deg, #f8f8f8 0%, #f7f7f7 100%);
+		}
+	}
+	.item {
+		// .item__blueb
+
+		&__blueb {
+			padding: 30px 30px;
+			display: flex;
+			width: 300px;
+			height: 10px;
+			justify-content: space-between;
+		}
+
+		// .item__textblock
+
+		&__textblock {
+			width: 284px;
+			height: 116px;
+			margin: 0 auto;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+	}
+	.blueb {
+		// .blueb__title
+
+		&__title {
+			font-family: Asap;
+			font-size: 24px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 28px;
+			color: #0e77af;
+		}
+
+		// .blueb__img
+
+		&__img {
+		}
+	}
+	.textblock {
+		// .textblock__text
+
+		&__text {
+			font-family: Asap;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 25px;
+		}
+
+		// .textblock__link
+
+		&__link {
+			font-family: Asap;
+			font-size: 12px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 29px;
+			color: #7d7d7d;
 		}
 	}
 }
