@@ -1,4 +1,6 @@
 body {
+	min-width: 1200px;
+	padding: 0px 10px;
 }
 
 .subheader {
@@ -67,6 +69,7 @@ body {
 		// .content__menu
 
 		&__menu {
+			padding: 0px 20px;
 			display: flex;
 			width: 629px;
 			justify-content: space-between;
